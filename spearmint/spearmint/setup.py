@@ -4,7 +4,8 @@ from distutils.core import setup
 
 # TODO: probably best to put all python files except for the top level run
 # script into a package (sub-directory), but for now we can do this.
-MODULES = ['ExperimentGrid', 'gp', 'helpers', 'Locker', 'runner', 'sobol_lib', 'spearmint_pb2', 'util']
+MODULES = ['spearmint.ExperimentGrid', 'spearmint.gp', 'spearmint.helpers', 'spearmint.Locker',
+           'spearmint.runner', 'spearmint.sobol_lib', 'spearmint.spearmint_pb2', 'spearmint.util']
 
 setup(name='spearmint',
       description="Practical Bayesian Optimization of Machine Learning Algorithms",
