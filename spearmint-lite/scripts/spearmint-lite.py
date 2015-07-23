@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 ##
 # Copyright (C) 2012 Jasper Snoek, Hugo Larochelle and Ryan P. Adams
 #
@@ -30,7 +31,7 @@ import re
 import collections
 import importlib
 
-from ExperimentGrid  import *
+from spearmintlite.ExperimentGrid  import *
 try: import simplejson as json
 except ImportError: import json
 
